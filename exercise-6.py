@@ -19,3 +19,11 @@
 
 # >>>>>>>>>>>>>
 # ============================================================================
+def number_pattern(n):
+    output = ''
+    if n == 0:
+        return output
+    for i in range(n+1):
+        if i > 0:
+            output += str(i) + ' '
+    return output
