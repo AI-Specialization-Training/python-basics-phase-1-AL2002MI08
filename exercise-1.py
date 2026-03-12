@@ -1,6 +1,6 @@
 # ============================================================================
 # TODO: Write a hello function that takes no arguments and returns "Hello!"
 # ============================================================================
-def greet():
+def hello():
     return "Hello World!"
 
