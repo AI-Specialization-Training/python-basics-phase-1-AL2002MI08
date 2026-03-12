@@ -19,3 +19,15 @@
 
 # >>>>>>>>>>>>>
 # ============================================================================
+def number_pattern(n):
+    if type(n) == int:
+        return "Argument must be an integer value"
+    if n < 1:
+        return "Argument must be an integer greater than 0"
+    output = ''
+    if n == 0:
+        return output
+    for i in range(n+1):
+        if i > 0:
+            output += str(i) + ' '
+    return output
