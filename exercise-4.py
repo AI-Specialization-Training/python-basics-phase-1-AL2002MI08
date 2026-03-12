@@ -10,3 +10,9 @@
 # return the string You can't convert {value} into a {type}., so again you use a formatted string.
 
 # ============================================================================
+
+def data_type_conversion(val, name):
+    if val.isnumeric() or val.isdigit():
+        return name(val)
+    else:
+        return f"You can't convert {val} into a {name}"
